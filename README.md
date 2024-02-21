@@ -42,8 +42,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-- Live Site URL:
+- Solution URL: (https://jack-oc.github.io/Interactive-Rating-Component/)
+- Live Site URL: (https://github.com/Jack-OC/Interactive-Rating-Component)
 
 
 ## My process
