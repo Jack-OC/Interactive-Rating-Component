@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+
+  <main class="rating-card">
+
+    <!-- Rating state start -->
+    <section class="card-face rating-section">
+      <div class="img-circle flex-div">
+        <img src="./images/icon-star.svg" alt="orange star" />
+      </div>
+
+      <h1 class="section-title">How did we do?</h1>
+
+      <p>Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+
+      <form class="rating-numbers">
+        <fieldset class="flex-div" aria-label="rate our service">
+          <input id="one" class="rating-num" type="radio" name="rating" value="1">
+          <label for="one" class="rating-label">1</label>
+
+          <input id="two" class="rating-num" type="radio" name="rating" value="2">
+          <label for="two" class="rating-label">2</label>
+
+          <input id="three" class="rating-num" type="radio" name="rating" value="3">
+          <label for="three" class="rating-label">3</label>
+
+          <input id="four" class="rating-num" type="radio" name="rating" value="4">
+          <label for="four" class="rating-label">4</label>
+
+          <input id="five" class="rating-num" type="radio" name="rating" value="5">
+          <label for="five" class="rating-label">5</label>
+        </fieldset>
+
+        <button type="button" class="submit-btn">Submit</button>
+      </form>
+
+    </section>
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+
+    <section class="card-face thanks-section hidden">
+      <img src="./images/illustration-thank-you.svg" alt="image of a receipt on a phone"/>
+
+      <p class="score-result">
+        You selected <span id="rating-selected"></span> out of 5
+      </p>
+
+      <h1 class="section-title">Thank you!</h1>
+
+      <p>We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!</p>
+    </section>
+
+    <!-- Thank you state end -->
+
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
